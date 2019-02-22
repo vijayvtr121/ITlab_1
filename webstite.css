@@ -1,0 +1,119 @@
+body{
+    background-color:#8795fa;
+}
+
+#banner{
+    margin:none;
+    background-image:url("index.jpeg");
+    
+    height:500px;
+    width:100%;
+}
+
+#titlecard{
+    margin:15px;
+    margin-top:5px;
+    background-color:rgba(171, 172, 173,0.6);
+    width:300px;
+    height:auto;
+    float:left;
+}
+
+#titlecard h1{
+     color:white;
+    text-shadow:8px 6px 2px yellow;
+}
+
+#social{
+    width:100px;
+    height:60px;
+    padding:5px;
+    display:inline;
+}
+
+#icons{
+    width:25px;
+    height:25px;
+    margin:10px;
+}
+
+#navbar{
+    background-color:teal;
+    margin:0% 5%;
+    height:50px;
+    padding:10px;
+    width:90%;
+    margin-top:28%;
+}
+
+#navbar ul{
+    text-align:center;
+}
+
+#navbar li{
+    display:inline;;
+    margin:5px 25px;
+    padding:25px;
+}
+
+#navbar li:hover{
+    color:white;
+}
+
+#navbar a{
+    text-decoration:none;
+    color:black;
+}
+
+#mainh{
+    height:400px;
+    width:auto;
+    background-color:white;
+    padding:25px;
+}
+
+#box1{
+    height:400px;
+    width:300px;
+    margin-left:25px;
+    background-image:linear-gradient(to right,white,skyblue);
+    float:left;
+}
+
+#box2{
+    height:auto;
+    width:200px;
+    background-image:linear-gradient(to right,white,skyblue);
+    float:left;
+    margin-left:50px;
+}
+
+#box1 p::first-letter{
+    color:red;
+    font-size:xx-large;
+}
+
+#box2 p::first-letter{
+    color:red;
+    font-size:xx-large;
+}
+
+#boximg{
+    height:150px;
+    width:100%;
+    opacity:0.5;
+}
+ 
+#box2 img:hover{
+opacity:1;
+}
+
+#footer{
+    margin:0px 50px;
+    padding-top:25px;
+    height:50px;
+    padding-bottom:25px;
+}
+
+	
+
